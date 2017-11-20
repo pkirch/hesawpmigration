@@ -1,0 +1,1 @@
+Remove-Item  /wp/wp-config.php
