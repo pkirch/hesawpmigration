@@ -14,11 +14,11 @@ The joint hackfest took place in Cologne, Germany, August 19th 2017.
 
 ## Company profile ##
 
-HESA Solutions GmbH is a startup with an app (iOS/Android) solution to get fast and easy support if you have a car break down. They have parts of their back end in Azure and at a web provider. Their WordPress based web site is completely at a web provider. Despite their young existence they are already partnering with over 463 of the 2200 companies offering car breakdown services in Germany. (https://www.myschleppapp.de/) 
+HESA Solutions GmbH is a startup with an app (iOS/Android) solution to get fast and easy support if you have a car break down. They have parts of their back end in Azure and at a web provider. Their WordPress based web site is completely at a web provider. Despite their young existence they are already partnering with over 693 of the 1800 companies offering car breakdown services in Germany. (https://www.myschleppapp.de/) 
  
 ## Problem statement ##
 
-In July 2017 HESA approached Microsoft with the request to support a migration of their web presence away from their web provider to Microsoft Azure. Reason was a featuring in the TV show in "Höhle der Löwen" (similar to Shark Tank) and there was a reason to believe that their web provider is not able to handle the traffic while the broadcast. The show has usually 4 million viewers. The best case expectation is that 10% are simultaneously browsing to look up the candidates. Each candidate in the show has about 20 minutes airtime, but it is uncertain in what time frame viewers would search for or visit the web site. Thereby our goal was to handle 400,000 concurrent users (CU) on the web site.
+In July 2017 HESA approached Microsoft with the request to support a migration of their web presence away from their web provider to Microsoft Azure. Reason was a featuring in the TV show in "Die Höhle der Löwen" (similar to Shark Tank) and there was a reason to believe that their web provider is not able to handle the traffic while the broadcast. The show has usually 4 million viewers. The best case expectation is that 10% are simultaneously browsing to look up the candidates. Each candidate in the show has about 20 minutes airtime, but it is uncertain in what time frame viewers would search for or visit the web site. Thereby our goal was to handle 400,000 concurrent users (CU) on the web site.
 
 ## Solution, steps, and delivery ##
 
