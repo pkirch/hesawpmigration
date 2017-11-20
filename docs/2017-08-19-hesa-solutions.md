@@ -12,7 +12,7 @@ As WordPress causes high load on the server we use Web Apps in auto-scale mode t
  
 The joint hackfest took place in Cologne, Germany, August 19th 2017.
 
-## Customer profile ##
+## Company profile ##
 
 HESA Solutions GmbH is a startup with an app (iOS/Android) solution to get fast and easy support if you have a car break down. They have parts of their back end in Azure and at a web provider. Their WordPress based web site is completely at a web provider. Despite their young existence they are already partnering with over 463 of the 2200 companies offering car breakdown services in Germany. (https://www.myschleppapp.de/) 
  
@@ -26,7 +26,7 @@ We have decided to use Azure App Service's Web Apps for Containers. Because we w
 
 Further in the progress of the hackfest we found that WordPress was in the given configuration very hungry for performance. We decided early to use the S tier of the App Service plan to be able to autoscale. But with the maximum of 10 instances we would never reach our goal of 400k CU. Our performance measurements showed a maximum of 100 to 200 CU per instance. With 10 instances would that mean a maximum of 2k CU which was far to low.
 
-The bottleneck was CPU. The database's limits were not reached _(Tier? Limits?)_. _(Query Monitor)_
+The bottleneck was CPU. The database's limits were not reached.
 
 ### Docker Image ###
 
