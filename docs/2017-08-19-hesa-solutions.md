@@ -82,7 +82,7 @@ RUN a2enmod rewrite expires \
 	&& a2enmod headers
 ```
 
-Next, copy our customized version of WordPress and our config file for SSH provided by Microsoft Docs. After copying we change the owner to www-data. Additionally, we have a startup file `docker-entrypoint.sh`. Web App for Containers only needs the ports 80 and 2222. HTTPS (443) is provided by the shared frond end. Anyway, it is useful to expose 443 for testing locally.
+Next, we copy our customized version of WordPress and our config file for SSH provided by Microsoft Docs. After copying we change the owner to www-data. Additionally, we have a startup file `docker-entrypoint.sh`. Web App for Containers only needs the ports 80 and 2222. HTTPS (443) is provided by the shared frond end. Anyway, it is useful to expose 443 for testing locally.
 
 ```dockerfile
 # copy files
@@ -188,7 +188,7 @@ One of our findings was that it really depends on the configuration of a WordPre
 
 Going forward the implemented solution using containers ensures a lot of freedom to chose other hosting services. Currently the solution uses Azure App Services' Web Apps for Container. If requirements change in the future it would be possible to move to Azure Container Services, Azure Service Fabric, or even other providers which support container.
 
-Finally, to get an impression of the hackfest and team (without me, because I took the photo).
+Finally, to get an impression of the hackfest and team (without [me](https://github.com/pkirch), because I took the photo).
 
 ![alt text](./team.jpg "Jan De Coster (on the left) and Christian Coronel (on the right)")
 
